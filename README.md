@@ -1,16 +1,15 @@
-# Helm Example Repository
+# Helm 示例存储库
 
-Ahoy world!  I'm a Helm repository for example charts.
+哎哟世界！我是示例图表的 Helm 存储库。
 
-## Get started
+## 开始
 
-Add this repository to Helm.
-
+将此存储库添加到 Helm。
 ```
-helm repo add examples https://helm.github.io/examples
+helm repo 添加示例 https://helm.github.io/examples
 ```
 
-Install an example.
+安装一个例子。
 
 ```
 helm install ahoy examples/hello-world
